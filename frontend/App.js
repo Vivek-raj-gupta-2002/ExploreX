@@ -7,7 +7,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import LoginNav from './src/screens/login/loginNav';
 
 export default function App({navigate}) {
-  const [isAuth, Setauth] = useState(false);
+  const [isAuth, Setauth] = useState(true);
 
   return (
 

@@ -66,9 +66,6 @@ const ChatScreen = ({ navigation, route }) => {
     return (
         <KeyboardAvoidingView style={styles.container} behavior="padding">
             {/* Header with Back Button */}
-            <View style={styles.header}>
-                <Text style={styles.chatTitle}>{groupName}</Text>
-            </View>
 
             {/* Chat Content */}
             <View style={styles.chatContent}>
